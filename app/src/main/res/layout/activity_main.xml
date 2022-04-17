@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayoutID"
+    tools:openDrawer="start"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_drawerId"
+        app:menu="@menu/nav_menu"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/header"
+        app:itemTextAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="6"
+    android:orientation="vertical"
+    android:background="#F4D3D3"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+       android:background="@color/white"
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/himurBiyeID"
+                android:src="@drawable/himurbiye"
+                android:scaleType="fitXY"
+                app:strokeColor="#1B89EA"
+                app:strokeWidth="7dp"
+                app:shapeAppearanceOverlay="@style/Round_Squre1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.google.android.material.imageview.ShapeableImageView>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/moddodupurId"
+                android:src="@drawable/himurmoddodopor"
+                android:scaleType="fitXY"
+                app:strokeColor="#1B89EA"
+                app:strokeWidth="7dp"
+                app:shapeAppearanceOverlay="@style/Round_Squre2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.google.android.material.imageview.ShapeableImageView>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/himusomgroId"
+                app:strokeColor="#1B89EA"
+                app:strokeWidth="7dp"
+                app:shapeAppearanceOverlay="@style/Round_Squre3"
+
+                android:src="@drawable/himusomgro"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.google.android.material.imageview.ShapeableImageView>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.imageview.ShapeableImageView
+                app:strokeColor="#1B89EA"
+                app:strokeWidth="7dp"
+                app:shapeAppearanceOverlay="@style/Round_Squre4"
+                android:id="@+id/nilljonsonaId"
+                android:src="@drawable/niljoshona"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.google.android.material.imageview.ShapeableImageView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.imageview.ShapeableImageView
+                app:strokeColor="#1B89EA"
+                app:strokeWidth="7dp"
+                app:shapeAppearanceOverlay="@style/Round_Squre5"
+                android:id="@+id/himusomgroId2"
+                android:src="@drawable/himusomgro2"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.google.android.material.imageview.ShapeableImageView>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.imageview.ShapeableImageView
+                app:strokeColor="#1B89EA"
+                app:strokeWidth="7dp"
+                app:shapeAppearanceOverlay="@style/Round_Squre6"
+                android:id="@+id/mouirakkhiId"
+                android:src="@drawable/mouirakhhi"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.google.android.material.imageview.ShapeableImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.drawerlayout.widget.DrawerLayout>

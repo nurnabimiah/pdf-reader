@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Round_Squre1">
+        <item name="cornerSize">15%</item>
+        
+    </style>
+
+
+    <style name="Round_Squre2">
+        <item name="cornerSize">15%</item>
+
+    </style>
+
+
+
+    <style name="Round_Squre3">
+        <item name="cornerSize">15%</item>
+
+    </style>
+
+
+
+
+    <style name="Round_Squre4">
+        <item name="cornerSize">15%</item>
+
+    </style>
+
+
+
+    <style name="Round_Squre5">
+        <item name="cornerSize">15%</item>
+
+    </style>
+
+
+    <style name="Round_Squre6">
+        <item name="cornerSize">15%</item>
+
+    </style>
+
+    <style name="circle">
+        <item name="cornerSize">50%</item>
+
+    </style>
+    
+</resources>
